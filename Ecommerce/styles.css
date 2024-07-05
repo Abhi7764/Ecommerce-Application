@@ -1,0 +1,84 @@
+#div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+div button{
+    cursor: pointer;
+    margin: 5px;
+    background-color:rgb(240, 110, 16) ;
+    /* background-color: rgb(37, 37, 228); */
+    color: white    ;
+    position: relative;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 7rem;
+}
+.Abhi{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 20rem;
+    margin-top: 20px;
+}
+.img{
+    height: 200px;
+}
+#logout{
+    position: absolute;
+    background-color:black;
+    top:10px;
+    right: 20px;
+    font-size: medium;
+    color:white;
+    cursor: pointer;
+}
+
+.home {
+    position: absolute;
+    top:10px;
+    left: 20px;
+    cursor: pointer;
+    border:solid white;   
+    background-color: transparent;
+    color:rgb(19, 19, 116);
+    font-size: 20px;
+    /* text-decoration: none; */
+}
+
+/* #showPrice{
+    color: chocolate;
+    text-align: center;
+} */
+
+p{
+    font-size: 18px;
+    margin: 8px;
+    line-height: 1.4;
+    color: #212121;
+    font-weight: 500;
+    /* display: contents */
+    /* display: inline-block; */
+}
+
+a{
+    color:rgb(19, 19, 116);
+    text-decoration: none; 
+    font-size: 20px;
+    /* position: absolute; */
+    left: 20px;
+    
+}
+
+#wrong{
+    color: red;
+}
+
+/* .divCart{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+} */

@@ -1,0 +1,54 @@
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.img{
+    height: 200px;
+}
+
+#showPrice{
+    color: chocolate;
+    text-align: center;
+}
+
+#showPrice a{
+    text-decoration: none; 
+}
+.childDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 20rem;
+    margin-top: 20px;
+}
+.childDiv button{
+    cursor: pointer;
+    margin: 5px;
+    background-color:rgb(240, 110, 16) ;
+    color: white    ;
+    position: relative;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100px;
+    margin-left: 7rem;
+}
+p{
+    font-size: 18px;
+    margin: 8px;
+    line-height: 1.4;
+    color: #212121;
+    font-weight: 500;
+    /* display: contents */
+    /* display: inline-block; */
+}
+#logout{
+    position: absolute;
+    background-color:black;
+    top:10px;
+    right: 20px;
+    font-size: medium;
+    color:white;
+    cursor: pointer;
+}
